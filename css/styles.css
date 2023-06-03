@@ -1,0 +1,709 @@
+/* Header */
+.nav-link div {
+    color: #fff;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.bg-header-top {
+    background: #2959c1;
+}
+
+.bg-header {
+    background: #fff;
+}
+
+.img-sreach {
+    width: 600px;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.box-header-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #295ac3;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.border {
+    border-right: 2px solid red;
+    padding-right: 10px;
+}
+
+.space {
+    padding: 0px 15px;
+}
+
+.title-header:hover {
+    color: #2959c1;
+}
+
+/* Banner top */
+.box-banner1 {
+    background: url(../images/main-banner-1.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 7px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.box-banner1:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+.title-box-banner1 {
+    width: 500px;
+    height: 100px;
+    padding: 130px 60px;
+}
+
+.btnShopNow-banner1 {
+    border-radius: 99px;
+    text-align: center;
+    background: #295ac3;
+    color: #fff;
+    border: 2xp solid #295ac3;
+    padding: 10px 0;
+    width: 125px;
+    margin-top: 40px;
+}
+
+.box-banner1 .btnShopNow-banner1:hover {
+    background: #000;
+}
+
+.box-banner2 {
+    background: url(../images/sub-banner-1.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 7px;
+    text-align: center;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.box-banner2:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+.title-box-banner2 {
+    height: 100px;
+    padding: 60px 60px;
+    color: #fff;
+}
+
+.box-banner3 {
+    background: url(../images/sub-banner-2.jpg);
+    background-size: cover;
+    height: 240px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.box-banner3:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+
+.title-box-banner3 {
+    height: 100px;
+    padding: 50px 30px;
+    color: #fff;
+}
+
+.box-banner4 {
+    background: url(../images/sub-banner-3.jpg);
+    background-size: cover;
+    height: 240px;
+    border-radius: 7px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.box-banner4:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+
+    transition: .5s;
+}
+
+.title-box-banner4 {
+    height: 100px;
+    padding: 50px 30px;
+    color: #fff;
+}
+
+/*  */
+.img-service {
+    display: block;
+    margin: 0 auto;
+
+    transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+
+    transition: .5s;
+}
+
+.img-service:hover {
+    transform: translate(0px, -15px);
+    -moz-transform: translate(0px, -15px);
+    -webkit-transform: translate(0px, -15px);
+    -o-transform: translate(0px, -15px);
+    -ms-transform: translate(0px, -15px);
+    transition: .5s;
+}
+
+.box-title-img-service {
+    text-align: center;
+}
+
+.box-title-img-service h5:hover {
+    text-align: center;
+    color: #2959c1;
+}
+
+/* Contents */
+
+/* Explore Your Favorite Category */
+.box-FavoriteCategory {
+    background: #f5f6f7;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.box-FavoriteCategory div a {
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.box-FavoriteCategory div a:hover {
+    color: #295ac3;
+
+}
+
+
+.img-FavoriteCategory {
+    margin-right: 0 auto;
+    height: 100px;
+    border-radius: 100%;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-FavoriteCategory:hover {
+    margin-right: 0 auto;
+    height: 100px;
+    border-radius: 100%;
+
+    transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transition: .5s;
+}
+
+/*  All Fresh Latest Products Daily!  */
+.container-product {
+    width: 100%;
+    height: 95%;
+    margin-left: 10px;
+    float: left;
+}
+
+.product1 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/KhuyenTai1.jpg);
+    background-size: cover;
+}
+
+.product1:hover {
+    background: url(../images/bongtai2.jpg);
+    width: 150px;
+    background-size: cover;
+}
+
+.product2 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/aothunlen.jpg);
+    background-size: cover;
+}
+
+.product2:hover {
+    background: url(../images/vayden.jpg);
+    width: 150px;
+    background-size: cover;
+}
+
+.product3 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/aojin.jpg);
+    background-size: cover;
+}
+
+.product3:hover {
+    background: url(../images/aokhoanglennu.jpg);
+    width: 150px;
+    background-size: cover;
+}
+
+.product4 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/nhan1.jpg);
+    background-size: cover;
+}
+
+.product4:hover {
+    background: url(../images/nhan2.jpg);
+    width: 150px;
+    background-size: cover;
+}
+
+.product5 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/iphone.jpg);
+    background-size: cover;
+}
+
+.product5:hover {
+    background: url(../images/ipad.jpg);
+    width: 150px;
+    background-size: cover;
+}
+
+.product6 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/coc1.jpg);
+    background-size: cover;
+}
+
+.product6:hover {
+    background: url(../images/coc2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+
+/* Banner 2 */
+.img-banner2-1 {
+    background-image: url(../images/cms-banner-1.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    height: 240px;
+    padding: 0 20px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-banner2-1:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+
+.img-banner2-2 {
+    background-image: url(../images/cms-banner-2.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    height: 240px;
+    padding: 0 20px;
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-banner2-2:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+.img-banner2-3 {
+    background-image: url(../images/cms-banner-3.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    height: 240px;
+    padding: 0 20px;
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-banner2-3:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+.title-img-banner2 {
+    height: 100px;
+    padding: 50px 30px;
+    color: #000;
+}
+
+/* All Fresh Featured Products */
+.product7 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/ghenhua1.jpg);
+    background-size: cover;
+}
+
+.product7:hover {
+    background: url(../images/ghenhua2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+.product8 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/tainghe1.jpg);
+    background-size: cover;
+}
+
+.product8:hover {
+    background: url(../images/tainghe2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+.product9 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/balo1.jpg);
+    background-size: cover;
+}
+
+.product9:hover {
+    background: url(../images/balo2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+.product10 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/daychuyen1.jpg);
+    background-size: cover;
+}
+
+.product10:hover {
+    background: url(../images/daychuyen2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+.product11 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/lythuytinh1.jpg);
+    background-size: cover;
+}
+
+.product11:hover {
+    background: url(../images/lythuytinh2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+/* Great Deals For Limited Time */
+.product12 {
+    height: 200px;
+    width: 200px;
+    background: url(../images/dongho1.jpg);
+    background-size: cover;
+}
+
+.product12:hover {
+    background: url(../images/dongho2.jpg);
+    width: 200px;
+    background-size: cover;
+}
+
+/* Banner 3 */
+.img-banner3-1 {
+    background-image: url(../images/cms-banner-4.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    height: 240px;
+    padding: 0 20px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-banner3-1:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+.img-banner3-2 {
+    background-image: url(../images/cms-banner-5.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    height: 240px;
+    padding: 0 20px;
+
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-banner3-2:hover {
+    transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -o-transform: scale(1.01, 1.01);
+    -ms-transform: scale(1.01, 1.01);
+    transition: .5s;
+}
+
+
+.title-img-banner3 {
+    height: 100px;
+    padding: 45px 30px;
+    color: #fff;
+}
+
+/* Banner 4 */
+.a {
+    position: relative;
+    overflow: hidden;
+}
+
+ .bg-black {
+    background-color: rgba(0, 128, 0, 0.075);
+    position: absolute;
+    height: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 1s;
+}
+.a:hover .bg-black {
+    background-position: rgba(0, 128, 0, 0.075);
+    height: 200px;
+    top: 0;
+}
+
+.img-banner4-1 {
+    background-image: url(../images/cate-1.jpg);
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-banner4-2 {
+    background-image: url(../images/cate-2.jpg);
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-banner4-3 {
+    background-image: url(../images/cate-3.jpg);
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-banner4-4 {
+    background-image: url(../images/cate-4.jpg);
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.title-img-banner4 {
+    height: 100px;
+    padding: 50px 25px;
+    color: #000;
+}
+
+
+/* Weekly Best Selling Item’s */
+.img-product {
+    height: 150px;
+    box-sizing: border-box;
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-product:hover {
+    height: 150px;
+    box-sizing: border-box;
+    transform: scale(1.01, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transition: .5s;
+}
+
+
+/* introduction */
+.box-introduction {
+    text-align: center;
+}
+
+.img-introduction {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Trending Blog Post */
+.box-blog {
+    margin: 50px;
+}
+
+.img-blog {
+    width: 443px;
+    height: 270px;
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transition: .5s;
+}
+
+.img-blog:hover {
+    transform: scale(1.01, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transition: .5s;
+}
+
+
+.title-blog {
+    padding-left: 35px;
+    margin: 50px;
+}
+
+
+/* Footer */
+.box-title-footer {
+    color: #000;
+}
+
+.box-title-footer:hover {
+    color: #2959c1;
+}
